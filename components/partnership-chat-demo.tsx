@@ -108,7 +108,7 @@ const partnerships: Partnership[] = [
       },
       {
         type: "client",
-        content: "En wat denk je van de Proforto aanpak? Volledige automatisering of partnership?"
+        content: "En wat denk je van de TechFlow aanpak? Volledige automatisering of partnership?"
       },
       {
         type: "ai",
@@ -349,7 +349,7 @@ export const PartnershipChatDemo: React.FC = () => {
       clearTimeout(initialTimer);
       clearInterval(interval);
     };
-  }, [activeTab, activePartnership.conversation.length, isPaused]);
+  }, [activeTab, activePartnership.conversation.length, activePartnership.conversation, isPaused]);
 
   // Stop typing animation after message is complete
   useEffect(() => {

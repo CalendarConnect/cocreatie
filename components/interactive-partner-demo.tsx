@@ -63,7 +63,7 @@ const partnerships: PartnershipDemo[] = [
     conversations: [
       {
         type: "client",
-        message: "Keith, wat denk je van deze Proforto aanpak? Moeten we voor volledige automatisering gaan of partnership?"
+        message: "Keith, wat denk je van deze TechFlow aanpak? Moeten we voor volledige automatisering gaan of partnership?"
       },
       {
         type: "ai",
