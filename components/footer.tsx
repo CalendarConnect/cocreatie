@@ -5,10 +5,6 @@ import { Logo } from "./Logo";
 export const Footer = () => {
   const links = [
     {
-      name: "Hoe het werkt",
-      href: "/proces",
-    },
-    {
       name: "Investering",
       href: "/investering",
     },

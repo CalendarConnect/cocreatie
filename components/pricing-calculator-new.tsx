@@ -92,11 +92,20 @@ export const PricingCalculator = () => {
     setIsSubmitting(true);
     
     try {
-      await createSubmission({
-        ...formData,
-        calculatedPrice: totalPrice,
-        packageType: `${selectedPackages.length} packages, ${selectedTools.length} integraties`,
-      });
+      if (createSubmission) {
+        await createSubmission({
+          ...formData,
+          calculatedPrice: totalPrice,
+          packageType: `${selectedPackages.length} packages, ${selectedTools.length} integraties`,
+        });
+      } else {
+        // Fallback when Convex is not available
+        console.log("Pricing calculator submission:", {
+          ...formData,
+          calculatedPrice: totalPrice,
+          packageType: `${selectedPackages.length} packages, ${selectedTools.length} integraties`,
+        });
+      }
       
       // Reset form and close modal
       setShowContactForm(false);

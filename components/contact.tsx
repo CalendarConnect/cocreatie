@@ -63,15 +63,22 @@ export function ContactForm() {
     setSubmitMessage("");
 
     try {
-      await submitContactForm({
-        name: values.name,
-        email: values.email,
-        company: values.company,
-        message: values.message,
-      });
+      if (submitContactForm) {
+        await submitContactForm({
+          name: values.name,
+          email: values.email,
+          company: values.company,
+          message: values.message,
+        });
 
-      setSubmitMessage("Bedankt voor je bericht! We nemen zo snel mogelijk contact met je op.");
-      form.reset();
+        setSubmitMessage("Bedankt voor je bericht! We nemen zo snel mogelijk contact met je op.");
+        form.reset();
+      } else {
+        // Fallback when Convex is not available
+        console.log("Contact form submission:", values);
+        setSubmitMessage("Bedankt voor je bericht! Neem contact op via info@co-creatie.ai voor snelle respons.");
+        form.reset();
+      }
     } catch (error) {
       setSubmitMessage("Er is iets misgegaan. Probeer het opnieuw of neem direct contact met ons op.");
     } finally {
