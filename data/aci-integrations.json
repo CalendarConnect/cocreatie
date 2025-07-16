@@ -1,0 +1,1847 @@
+[
+  {
+    "name": "asana",
+    "displayName": "ASANA",
+    "description": "Integration with ASANA Support API to manage users, tickets, and organizations.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/asana.png",
+    "provider": "ASANA, Inc.",
+    "categories": [
+      "Productiviteit",
+      "Sales & Marketing"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Gebruikersgegevens ophalen",
+      "Alle gebruikers weergeven",
+      "Gebruikerstaken bekijken",
+      "Taakdetails weergeven",
+      "Nieuwe taak aanmaken",
+      "Taak verwijderen"
+    ],
+    "active": true,
+    "popular": true
+  },
+  {
+    "name": "github",
+    "displayName": "GitHub",
+    "description": "The GitHub API allows you to interact with GitHub programmatically, including repository management, pull requests, issues, commits, and more.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/github.svg",
+    "provider": "GitHub",
+    "categories": [
+      "Dev Tools"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Repository sterren bekijken",
+      "Gebruikersprofiel ophalen",
+      "Sociale accounts weergeven",
+      "Repository een ster geven",
+      "Repositories weergeven",
+      "Repository details ophalen",
+      "Commit geschiedenis bekijken",
+      "Commit details ophalen",
+      "Issues weergeven",
+      "Issue details bekijken"
+    ],
+    "active": true,
+    "popular": true
+  },
+  {
+    "name": "gmail",
+    "displayName": "Gmail",
+    "description": "The Gmail API is a RESTful API that enables sending, reading, and managing emails. This integration allows sending emails on behalf of the user.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/gmail.svg",
+    "provider": "Google",
+    "categories": [
+      "Communicatie"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "E-mail versturen",
+      "E-mails weergeven",
+      "E-mail lezen",
+      "Naar prullenbak verplaatsen",
+      "Herstellen uit prullenbak",
+      "Labels weergeven",
+      "Label details ophalen",
+      "Label aanmaken",
+      "Label bijwerken",
+      "Label verwijderen"
+    ],
+    "active": true,
+    "popular": true
+  },
+  {
+    "name": "notion",
+    "displayName": "Notion",
+    "description": "Notion API is a REST API to manage Notion workspaces which are collaborative environments where teams can organize work, manage projects, and store information in a highly customizable way.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/notion.svg",
+    "provider": "Notion Labs, Inc.",
+    "categories": [
+      "Productiviteit",
+      "Document Management"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Pagina inhoud ophalen",
+      "Pagina's zoeken",
+      "Pagina archiveren/dearchiveren",
+      "Pagina herstellen",
+      "Teamleden weergeven",
+      "Gebruikersgegevens ophalen",
+      "Mijn profiel ophalen"
+    ],
+    "active": true,
+    "popular": true
+  },
+  {
+    "name": "slack",
+    "displayName": "Slack",
+    "description": "Slack is a team communication and collaboration tool. This API allows you to interact with Slack in two ways: as a bot for automated tasks and workflows, or as a user to perform actions on behalf of a real Slack user. Whether you're building chatbots, automating workflows, or integrating Slack with other tools, this API provides the flexibility to suit your needs.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/slack.svg",
+    "provider": "Slack Technologies, LLC, a Salesforce company.",
+    "categories": [
+      "Communicatie"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Kanalen weergeven",
+      "Kanaalleden bekijken",
+      "Kanaalinfo ophalen",
+      "Gebruikerskanalen weergeven",
+      "Berichtengeschiedenis bekijken",
+      "Thread reacties ophalen",
+      "Kanaal aanmaken",
+      "Kanaal hernoemen",
+      "Kanaaldoel instellen",
+      "Kanaalonderwerp instellen"
+    ],
+    "active": true,
+    "popular": true
+  },
+  {
+    "name": "supabase",
+    "displayName": "Supabase API",
+    "description": "Supabase is an open-source Firebase alternative providing real-time databases, authentication, and more.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/supabase.svg",
+    "provider": "Supabase Inc.",
+    "categories": [
+      "Data & Analytics",
+      "Dev Tools"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "SSO provider aanmaken",
+      "SSO provider verwijderen",
+      "SSO provider details ophalen",
+      "Authenticatie configuratie ophalen",
+      "SSO providers weergeven",
+      "Alleen-lezen modus uitschakelen",
+      "TypeScript types genereren",
+      "Organisaties weergeven",
+      "Organisatieleden weergeven",
+      "Organisatie details ophalen"
+    ],
+    "active": true,
+    "popular": true
+  },
+  {
+    "name": "vercel",
+    "displayName": "Vercel",
+    "description": "The Vercel API allows programmatic control over deployments, projects, and integrations, including GitHub repository linking and deployment management.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/vercel.png",
+    "provider": "https://vercel.com/docs/rest-api/reference",
+    "categories": [
+      "Deployment",
+      "CI/CD"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "GitHub integratie URL ophalen",
+      "Project aanmaken",
+      "Project bijwerken",
+      "Projecten weergeven",
+      "Project zoeken",
+      "Project verwijderen",
+      "Website deployen",
+      "Deployments weergeven",
+      "Deployment details ophalen",
+      "Deployment gebeurtenissen bekijken"
+    ],
+    "active": true,
+    "popular": true
+  },
+  {
+    "name": "accredible",
+    "displayName": "Accredible",
+    "description": "Accredible integration for managing digital certificates and badges. Create, search, and generate PDFs for credentials.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/accredible.svg",
+    "provider": "Accredible",
+    "categories": [
+      "Document Management"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Certificaat aanmaken",
+      "Certificaten zoeken",
+      "Groep aanmaken",
+      "Attribuut sleutel aanmaken",
+      "Attribuut sleutels zoeken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "active_campaign",
+    "displayName": "ActiveCampaign",
+    "description": "ActiveCampaign is a customer experience automation (CXA) platform that combines email marketing, marketing automation, sales automation and CRM capabilities to help businesses build better relationships with customers.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/active_campaign.svg",
+    "provider": "ActiveCampaign, LLC",
+    "categories": [
+      "Sales & Marketing",
+      "Automation"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Contact aanmaken",
+      "Contact ophalen",
+      "Contact bijwerken",
+      "Lijst aanmaken",
+      "Contact lijststatus bijwerken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "aero_workflow",
+    "displayName": "Aero workflow",
+    "description": "Aero is workflow & practice management built specifically with the modern cloud-based accounting firm in mind.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/aeroworkflow.svg",
+    "provider": "Aero workflow",
+    "categories": [
+      "Productiviteit",
+      "Automation"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Overige items ophalen",
+      "E-mails ophalen",
+      "Taken ophalen",
+      "Contacten ophalen",
+      "Contact aanmaken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "agent_mail",
+    "displayName": "Agent Mail",
+    "description": "Agent Mail is an email service that helps manage and automate email communications with features for inbox management, thread tracking, and message handling.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/agentmail.svg",
+    "provider": "Agent Mail",
+    "categories": [
+      "Productiviteit",
+      "Communicatie",
+      "Email Marketing"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Inbox ophalen",
+      "Inbox aanmaken",
+      "Threads weergeven",
+      "Berichten weergeven"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "agent_secrets_manager",
+    "displayName": "Agent Secrets Manager",
+    "description": "The Agent Secrets Manager allows you to store and retrieve secrets. For example, you can store username/password for a website login credential, or a secret API key for a user.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/agent_secrets_manager.svg",
+    "provider": "ACI.dev",
+    "categories": [
+      "Security",
+      "Dev Tools",
+      "ACI.dev"
+    ],
+    "authType": "no_auth",
+    "functions": [
+      "Inloggegevens weergeven",
+      "Domein inloggegevens ophalen",
+      "Domein inloggegevens aanmaken",
+      "Domein inloggegevens bijwerken",
+      "Domein inloggegevens verwijderen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "aidbase",
+    "displayName": "AIDBASE",
+    "description": "Integration with Aidbase API to manage resources and workflows.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/aidbase.svg",
+    "provider": "Aidbase, Inc.",
+    "categories": [
+      "Integration",
+      "Automation"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Alle chatbots weergeven",
+      "Chatbot details ophalen",
+      "Chatbot antwoord versturen",
+      "Chatbot kennis ophalen",
+      "Chatbot kennis bijwerken",
+      "Chatbot kennis verwijderen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "airtable",
+    "displayName": "Airtable",
+    "description": "Airtable is a cloud-based platform that combines the functionality of a database with the visual interface of a spreadsheet. It allows users to organize and track information, collaborate with team members, and create custom applications.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/airtable.svg",
+    "provider": "Airtable",
+    "categories": [
+      "Data & Analytics",
+      "Productiviteit"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Databases weergeven",
+      "Database schema ophalen",
+      "Tabel aanmaken",
+      "Webhooks weergeven",
+      "Tabel bijwerken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "akkio",
+    "displayName": "Akkio",
+    "description": "Akkio is a no-code AI platform that enables businesses to build, deploy, and maintain AI solutions for predictive analytics, forecasting, and classification without requiring data science expertise.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/akkio.svg",
+    "provider": "Akkio",
+    "categories": [
+      "Data & Analytics",
+      "Automation"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Datasets weergeven",
+      "Dataset aanmaken",
+      "Rijen toevoegen aan dataset",
+      "Dataset verwijderen",
+      "AI modellen weergeven",
+      "AI model verwijderen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "all_images",
+    "displayName": "All-Images",
+    "description": "All-Images.ai API integration for image search and AI image generation. Provides capabilities for searching stock images and generating custom images using AI.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/all_images.svg",
+    "provider": "All-Images.ai",
+    "categories": [
+      "Media"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "API sleutel controleren",
+      "Afbeeldingen zoeken",
+      "Afbeelding downloaden",
+      "AI afbeelding genereren",
+      "Generatie status ophalen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "anchor_browser",
+    "displayName": "Anchor Browser",
+    "description": "Anchor Browser is a powerful web browser application that provides secure browsing, tabbed navigation, and built-in privacy features. It enables users to browse websites, manage bookmarks, and synchronize browsing data across multiple devices while maintaining privacy and security.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/anchor_browser.svg",
+    "provider": "Anchor Browser Inc.",
+    "categories": [
+      "Browser",
+      "Productiviteit"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Browser sessie starten",
+      "Screenshot maken",
+      "Webpagina inhoud ophalen",
+      "Browser profiel aanmaken",
+      "Tekst typen in browser"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "apaleo",
+    "displayName": "APALEO",
+    "description": "The open platform for modern hospitality. Hotel and apartment businesses run more efficiently on Apaleo today and use innovative apps to be ready for tomorrow.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/apaleo.svg",
+    "provider": "Apaleo",
+    "categories": [
+      "Hospitality"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Hotels weergeven",
+      "Boeking aanmaken",
+      "Tariefplannen ophalen",
+      "Kamers weergeven",
+      "Reserveringen ophalen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "api_template",
+    "displayName": "APITemplate.io",
+    "description": "APITemplate.io is a template-based document generation service that allows you to create PDFs and other documents from HTML templates.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/apitemplate.svg",
+    "provider": "APITemplate.io",
+    "categories": [
+      "Document Management"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Templates weergeven",
+      "Template details ophalen",
+      "Template bijwerken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "arxiv",
+    "displayName": "arXiv",
+    "description": "arXiv is an open-access repository of electronic preprints and postprints approved for posting after moderation, but not peer review. It consists of scientific papers in the fields of mathematics, physics, astronomy, electrical engineering, computer science, quantitative biology, statistics, mathematical finance and economics.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/arxiv.svg",
+    "provider": "Cornell University",
+    "categories": [
+      "Search & Scraping"
+    ],
+    "authType": "no_auth",
+    "functions": [
+      "Wetenschappelijke artikelen zoeken",
+      "Artikel metadata ophalen",
+      "Artikel downloaden",
+      "Categorieën weergeven",
+      "Dagelijkse updates ophalen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "baidu_map",
+    "displayName": "Baidu Map",
+    "description": "Baidu Map API is a set of map-based application interfaces for developers, providing services such as location search, geocoding, route planning, and real-time traffic conditions.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/baidu_map.svg",
+    "provider": "Baidu",
+    "categories": [
+      "Location"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Autoroute plannen",
+      "Fietsroute plannen",
+      "Looproute plannen",
+      "OV route plannen",
+      "Route matrix berekenen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "baserow",
+    "displayName": "Baserow",
+    "description": "Baserow is an open source no-code database tool and Airtable alternative. Create your own database without technical experience.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/baserow.svg",
+    "provider": "Baserow",
+    "categories": [
+      "Data & Analytics",
+      "Productiviteit"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Tabel velden weergeven",
+      "Tabel rijen weergeven",
+      "Rij details ophalen",
+      "Nieuwe rij aanmaken",
+      "Rij bijwerken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "brave_search",
+    "displayName": "Brave Search",
+    "description": "Brave Search API is a REST API to query Brave Search and get back search results from the web. It supports web search, summarizer search, image search, video search, news search.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/brave_search.svg",
+    "provider": "Brave Software, Inc.",
+    "categories": [
+      "Search & Scraping"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Web zoeken",
+      "Afbeeldingen zoeken",
+      "Video's zoeken",
+      "Nieuws zoeken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "breezy",
+    "displayName": "Breezy HR",
+    "description": "Breezy HR is an applicant tracking system that helps companies streamline their hiring process with features for job posting, candidate management, and interview scheduling.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/breezy.svg",
+    "provider": "Breezy HR",
+    "categories": [
+      "HR & Recruiting"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Bedrijfsgegevens ophalen",
+      "Vacatures weergeven",
+      "Vacature details ophalen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "browserbase",
+    "displayName": "Browserbase",
+    "description": "Browserbase is a platform for running headless browsers.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/browserbase.png",
+    "provider": "Browserbase",
+    "categories": [
+      "Browser",
+      "Search & Scraping"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Browser sessie aanmaken",
+      "Sessies weergeven",
+      "Sessie details ophalen",
+      "Sessie bijwerken",
+      "Debug info ophalen",
+      "Downloads ophalen",
+      "Logs bekijken",
+      "Opname bekijken",
+      "Projecten weergeven",
+      "Project details ophalen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "cal",
+    "displayName": "Cal.com",
+    "description": "Cal.com is a fully customizable scheduling platform that enables individuals and teams to automate meeting bookings, manage availability, and integrate with popular calendar and productivity tools. With Cal.com, users can streamline appointment scheduling, avoid double bookings, and enhance collaboration through flexible, privacy-focused solutions.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/cal.svg",
+    "provider": "Cal.com, Inc.",
+    "categories": [
+      "Productiviteit",
+      "Communicatie"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Planning weergeven",
+      "Planning aanmaken",
+      "Planning details ophalen",
+      "Planning bijwerken",
+      "Planning verwijderen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "calendly",
+    "displayName": "Calendly",
+    "description": "Calendly integration for scheduling and managing meetings. This app allows you to automate your scheduling process, embed Calendly on your website, and manage your availability.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/calendly.svg",
+    "provider": "Calendly",
+    "categories": [
+      "Productiviteit"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Geplande afspraken weergeven",
+      "Afspraak details ophalen",
+      "Afspraaktypes weergeven",
+      "Genodigden weergeven",
+      "Beschikbaarheid controleren",
+      "Mijn profiel ophalen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "clickup",
+    "displayName": "ClickUp",
+    "description": "The ClickUp API allows you to interact with ClickUp programmatically, including workspace management, tasks, lists, folders, and more.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/clickup.png",
+    "provider": "ClickUp",
+    "categories": [
+      "Productiviteit"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Workspaces weergeven",
+      "Documenten zoeken",
+      "Doelen ophalen",
+      "Teamplekken bekijken",
+      "Spaces weergeven"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "cloudflare",
+    "displayName": "Cloudflare",
+    "description": "The Cloudflare API allows programmatic control over your Cloudflare account, including DNS, DDoS protection, and more.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/cloudflare.png",
+    "provider": "https://developers.cloudflare.com/api",
+    "categories": [
+      "Deployment"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Zones weergeven",
+      "Zone details ophalen",
+      "DNS records weergeven",
+      "DNS record aanmaken",
+      "DNS record verwijderen",
+      "DNS record details ophalen",
+      "DNS record bijwerken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "coda",
+    "displayName": "Coda",
+    "description": "Coda is a document editor that brings together documents, spreadsheets, and applications into a single flexible platform. It allows teams to collaborate in real-time, create interactive documents, and build custom workflows without coding.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/coda.svg",
+    "provider": "Coda, Inc.",
+    "categories": [
+      "Document Management",
+      "Productiviteit"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Documenten weergeven",
+      "Tabellen weergeven",
+      "Rijen weergeven",
+      "Rij details ophalen",
+      "Rij verwijderen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "cognito_forms",
+    "displayName": "Cognito Forms",
+    "description": "Cognito Forms is a powerful online form builder that allows users to create custom forms, collect data, and automatically process payments. The tool supports complex field types, conditional logic, calculated fields, file uploads, and multiple integration options.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/cognito_forms.svg",
+    "provider": "Cognito LLC",
+    "categories": [
+      "Productiviteit",
+      "Data & Analytics"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Formulieren weergeven",
+      "Formulier invulling toevoegen",
+      "Invulling details ophalen",
+      "Invulling verwijderen",
+      "Invulling bijwerken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "coin_gecko",
+    "displayName": "CoinGecko",
+    "description": "CoinGecko provides a comprehensive cryptocurrency API that allows users to track price, volume, market cap, and other market data for thousands of cryptocurrencies. It offers real-time market data, historical price information, and various market metrics for digital assets.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/coingecko.svg",
+    "provider": "CoinGecko",
+    "categories": [
+      "Finance",
+      "AI & Machine Learning"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Crypto munten weergeven",
+      "Actuele prijzen ophalen",
+      "Marktgrafiek bekijken",
+      "Crypto zoeken",
+      "Koersdata ophalen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "coinmarketcap",
+    "displayName": "CoinMarketCap",
+    "description": "CoinMarketCap API provides cryptocurrency market data including listings, quotes, mapping and global metrics. API accessible is subject to the pricing tier of the user.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/coinmarketcap.svg",
+    "provider": "CoinMarketCap, Inc.",
+    "categories": [
+      "Finance",
+      "AI & Machine Learning"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Airdrop details ophalen",
+      "Airdrops weergeven",
+      "Crypto categorieën weergeven",
+      "Categorie details ophalen",
+      "Crypto ID mapping ophalen",
+      "Crypto metadata ophalen",
+      "Historische listings bekijken",
+      "Actuele listings weergeven",
+      "Nieuwe listings bekijken",
+      "Trending cryptos bekijken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "daytona",
+    "displayName": "Daytona.io",
+    "description": "Daytona provides secure and elastic infrastructure for running AI-generated code in isolated environments with sub-90ms sandbox creation time.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/daytona.svg",
+    "provider": "Daytona.io",
+    "categories": [
+      "Sandboxes",
+      "Code"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Workspaces weergeven",
+      "Workspace aanmaken",
+      "Workspace details ophalen",
+      "Workspace verwijderen",
+      "Workspace starten",
+      "Workspace stoppen",
+      "Commando uitvoeren"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "dexscreener",
+    "displayName": "DexScreener",
+    "description": "DexScreener API integration for accessing token and pair information from decentralized exchanges.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/dexscreener.svg",
+    "provider": "DexScreener",
+    "categories": [
+      "Finance",
+      "AI & Machine Learning"
+    ],
+    "authType": "no_auth",
+    "functions": [
+      "Token profielen ophalen",
+      "Token boosts bekijken",
+      "Top token boosts weergeven",
+      "Token orders controleren",
+      "Handelsparen ophalen via adres",
+      "Handelsparen zoeken",
+      "Token pools bekijken",
+      "Handelsparen per token weergeven"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "dify",
+    "displayName": "Dify",
+    "description": "Dify API for managing AI-driven tasks and workflows.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/dify.svg",
+    "provider": "Dify",
+    "categories": [
+      "Automation"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Chatbericht versturen",
+      "Antwoord stoppen",
+      "Gesprekken weergeven",
+      "Feedback versturen",
+      "Gesprek verwijderen",
+      "Berichten ophalen",
+      "Gespreksnaam bijwerken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "discord",
+    "displayName": "Discord",
+    "description": "Discord is a voice, video, and text communication service. This API allows you to interact with Discord in two ways: as a bot for automated tasks and workflows, or as a user to perform actions on behalf of a real Discord user. Whether you're building chatbots, automating workflows, or integrating Discord with other tools, this API provides the flexibility to suit your needs.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/discord.svg",
+    "provider": "Discord Inc.",
+    "categories": [
+      "Communicatie"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Mijn profiel ophalen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "e2b",
+    "displayName": "E2B",
+    "description": "E2B is an open-source runtime for executing AI-generated code in secure cloud sandboxes.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/e2b.svg",
+    "provider": "FoundryLabs, Inc.",
+    "categories": [
+      "Sandboxes",
+      "Code"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Code uitvoeren"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "eleven_labs",
+    "displayName": "Eleven Labs",
+    "description": "Eleven Labs is an advanced text-to-speech (TTS) platform that provides high-quality, natural Text To Speech services. It allows users to create custom voices, convert text into realistic speech, and supports multiple languages and sound styles.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/eleven_labs.svg",
+    "provider": "Eleven Labs",
+    "categories": [
+      "Media"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Spraak genereren",
+      "Stemmen weergeven",
+      "Steminstellingen ophalen",
+      "Steminstellingen aanpassen",
+      "Tekst naar spraak streamen",
+      "Spraak naar spraak converteren"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "etherscan",
+    "displayName": "Etherscan",
+    "description": "The Etherscan API provides access to Ethereum blockchain data, including account balances, transactions, smart contracts, and network statistics.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/etherscan.svg",
+    "provider": "Etherscan",
+    "categories": [
+      "AI & Machine Learning",
+      "Data & Analytics"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Account saldo ophalen",
+      "Token saldo ophalen",
+      "Transacties bekijken",
+      "Gas prijs ophalen",
+      "Contract broncode ophalen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "exa_ai",
+    "displayName": "Exa AI",
+    "description": "Exa is a search engine made for AIs. Exa finds the exact content you are looking for on the web, with three core functionalities: search, contents, find similar.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/exa_ai.svg",
+    "provider": "Exa Labs, Inc.",
+    "categories": [
+      "Search & Scraping"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Zoeken",
+      "Inhoud ophalen",
+      "Vergelijkbare vinden",
+      "Antwoord genereren"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "factorialhr",
+    "displayName": "Factorial HR",
+    "description": "Factorial HR API provides comprehensive HR management capabilities including employee management, task tracking, webhooks, job catalog, and finance management.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/factorialhr.svg",
+    "provider": "Factorial",
+    "categories": [
+      "HR & Recruiting"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Inloggegevens weergeven",
+      "Webhook abonnementen bekijken",
+      "Webhook abonnement aanmaken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "feishu",
+    "displayName": "Feishu",
+    "description": "Feishu (Lark) is a suite of workplace collaboration tools developed by ByteDance. It provides APIs for messaging, document collaboration, and workplace automation.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/feishu.svg",
+    "provider": "ByteDance",
+    "categories": [
+      "Communicatie",
+      "Productiviteit"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Bericht versturen",
+      "Bericht beantwoorden",
+      "Bericht bewerken",
+      "Bericht doorsturen",
+      "Berichten samenvoegen en doorsturen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "figma",
+    "displayName": "Figma",
+    "description": "Figma is a browser-based collaborative interface design tool. This integration allows access to and processing of Figma design files and resources.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/figma.svg",
+    "provider": "Figma",
+    "categories": [
+      "Design & Creative"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Bestand ophalen",
+      "Bestand nodes ophalen",
+      "Afbeelding exporteren",
+      "Versiegeschiedenis bekijken",
+      "Team projecten weergeven",
+      "Project bestanden weergeven",
+      "Opmerkingen bekijken",
+      "Afbeelding vullingen ophalen",
+      "Component sets ophalen",
+      "Stijl details ophalen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "firecrawl",
+    "displayName": "Firecrawl",
+    "description": "Firecrawl API provides web scraping, crawling, mapping, extraction, and search capabilities. Extract content from any webpage, crawl entire websites, get complete URL lists, extract structured data, and search the web.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/firecrawl.svg",
+    "provider": "Firecrawl",
+    "categories": [
+      "Search & Scraping",
+      "Data & Analytics"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Webpagina scrapen",
+      "Batch scraping starten",
+      "Batch status controleren",
+      "Batch fouten bekijken",
+      "Website crawlen",
+      "Crawl status controleren",
+      "Crawl annuleren",
+      "Crawl fouten bekijken",
+      "Website in kaart brengen",
+      "Data extraheren"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "fireflies",
+    "displayName": "Fireflies",
+    "description": "Fireflies.ai is an AI meeting assistant that automatically records, transcribes, and analyzes your meetings. It helps teams capture and retrieve knowledge from voice conversations across all video conferencing platforms.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/fireflies.svg",
+    "provider": "Fireflies.ai",
+    "categories": [
+      "Productiviteit",
+      "Communicatie"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "AI app resultaten ophalen",
+      "Gebruiker details ophalen",
+      "Gebruikers weergeven",
+      "Transcript ophalen",
+      "Gebruikersrol instellen",
+      "Transcripties weergeven"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "gitlab",
+    "displayName": "GitLab",
+    "description": "The GitLab API allows you to interact with GitLab programmatically, including repository management, merge requests, issues, commits, pipelines, and more.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/gitlab.svg",
+    "provider": "GitLab",
+    "categories": [
+      "Dev Tools"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Gebruiker zoeken op naam",
+      "Gebruiker zoeken op ID",
+      "Mijn profiel ophalen",
+      "Gebruikersprojecten weergeven",
+      "Project details ophalen",
+      "Project aanmaken",
+      "Project issues weergeven",
+      "Project archiveren",
+      "Project dearchiveren",
+      "Project verwijderen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "goco",
+    "displayName": "GoCo",
+    "description": "GoCo API for managing HR, benefits, and payroll operations.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/goco.svg",
+    "provider": "GoCo",
+    "categories": [
+      "HR & Recruiting",
+      "Finance"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Bedrijven weergeven",
+      "Aangepaste velden ophalen",
+      "Afdelingen weergeven",
+      "Functietitels weergeven",
+      "Locaties weergeven"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "google_analytics_admin",
+    "displayName": "Google Analytics Admin",
+    "description": "The Google Analytics Admin API allows for programmatic access to the Google Analytics configuration data and is only compatible with Google Analytics properties.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/google_analytics.svg",
+    "provider": "Google",
+    "categories": [
+      "Data & Analytics",
+      "Sales & Marketing"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Accounts weergeven",
+      "Properties weergeven",
+      "Datastromen weergeven",
+      "Aangepaste dimensie aanmaken",
+      "Google Ads koppelingen weergeven"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "google_calendar",
+    "displayName": "Google Calendar",
+    "description": "The Google Calendar API is a RESTful API that can be accessed through explicit HTTP calls. The API exposes most of the features available in the Google Calendar Web interface.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/google_calendar.svg",
+    "provider": "Google",
+    "categories": [
+      "Productiviteit"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Agenda's weergeven",
+      "Agenda details ophalen",
+      "Kalender info ophalen",
+      "Beschikbaarheid controleren",
+      "Afspraken weergeven",
+      "Afspraak details ophalen",
+      "Afspraak aanmaken",
+      "Afspraak bijwerken",
+      "Afspraak verwijderen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "google_docs",
+    "displayName": "Google Docs",
+    "description": "The Google Docs API allows developers to create, read, and update Google Docs documents programmatically. It provides access to Google Docs through RESTful HTTP calls, including create, read and update the Google Docs document.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/google_docs.svg",
+    "provider": "Google",
+    "categories": [
+      "Document Management"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Document aanmaken",
+      "Document bijwerken",
+      "Document ophalen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "google_maps",
+    "displayName": "Google MAPS",
+    "description": "Navigate your world faster and easier with Google Maps. Over 220 countries and territories mapped and hundreds of millions of businesses and places on the map. Get real-time GPS navigation, traffic, and transit info, and find what you need by getting the latest information on businesses, including grocery stores, pharmacies and other important places.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/google_maps.svg",
+    "provider": "Google",
+    "categories": [
+      "Map"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Locaties zoeken",
+      "Route plannen",
+      "Adres opzoeken via coördinaten",
+      "Statische kaart genereren",
+      "Hoogte gegevens ophalen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "google_meet",
+    "displayName": "Google Meet",
+    "description": "The Google Meet API allows developers to access and manage Google Meet resources programmatically. It provides information about meetings, participants, and recordings through RESTful HTTP calls including listing conference records, participants, and meeting spaces.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/google_meet.svg",
+    "provider": "Google",
+    "categories": [
+      "Video Conferencing"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Vergaderrecords weergeven",
+      "Vergaderrecord details ophalen",
+      "Deelnemers weergeven",
+      "Deelnemer details ophalen",
+      "Deelnemer sessies weergeven",
+      "Meeting ruimte ophalen",
+      "Meeting ruimte aanmaken",
+      "Opnames weergeven",
+      "Opname details ophalen",
+      "Slimme notities configureren"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "google_sheets",
+    "displayName": "Google Sheets",
+    "description": "The Google Sheets API is a RESTful API that allows programmatic access to spreadsheet data and formatting. It supports CRUD operations, formulas, charts, and collaboration features.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/google_sheets.svg",
+    "provider": "Google",
+    "categories": [
+      "Data & Analytics",
+      "Productiviteit"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Spreadsheet aanmaken",
+      "Waarden ophalen",
+      "Waarden bijwerken",
+      "Meerdere waarden bijwerken",
+      "Waarden toevoegen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "google_tasks",
+    "displayName": "Google Tasks",
+    "description": "The Google Tasks API allows managing tasks and task lists programmatically.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/google_tasks.svg",
+    "provider": "Google",
+    "categories": [
+      "Productiviteit"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Takenlijsten weergeven",
+      "Takenlijst details ophalen",
+      "Taken weergeven",
+      "Taak toevoegen",
+      "Taak verwijderen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "hackernews",
+    "displayName": "Hacker News",
+    "description": "Hacker News is a social news website focusing on computer science and entrepreneurship, run by Y Combinator. This API allows you to fetch top stories, new stories, ask stories, show stories, and job postings from Hacker News.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/hackernews.png",
+    "provider": "Hacker News",
+    "categories": [
+      "News"
+    ],
+    "authType": "no_auth",
+    "functions": [
+      "Top verhalen ophalen",
+      "Item details bekijken",
+      "Gebruiker profiel ophalen",
+      "Gebruiker verhalen weergeven",
+      "Ontvangen reacties bekijken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "holded",
+    "displayName": "Holded",
+    "description": "Holded API for managing team, employees, payroll, treasury, invoicing and other business operations.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/holded.svg",
+    "provider": "Holded",
+    "categories": [
+      "Finance",
+      "HR & Recruiting"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Medewerkers weergeven",
+      "Medewerker toevoegen",
+      "Medewerker details ophalen",
+      "Medewerker bijwerken",
+      "Medewerker verwijderen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "jira",
+    "displayName": "Jira",
+    "description": "Jira API integration for issue tracking and project management. Provides functionality to create, update, and manage issues, projects, and workflows.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/jira.svg",
+    "provider": "Atlassian",
+    "categories": [
+      "Productiviteit",
+      "Dev Tools"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Toegankelijke resources weergeven",
+      "Projecten weergeven",
+      "Issues zoeken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "lmnt",
+    "displayName": "LMNT",
+    "description": "LMNT is an API for text-to-speech and voice cloning.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/lmnt.jpg",
+    "provider": "LMNT Inc.",
+    "categories": [
+      "Media"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Spraak genereren",
+      "Geavanceerde spraak genereren",
+      "Stemmen weergeven",
+      "Stem informatie ophalen",
+      "Stem bijwerken",
+      "Stem verwijderen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "neon",
+    "displayName": "Neon",
+    "description": "Neon is a serverless Postgres database service with a generous free tier, providing instant autoscaling and automated storage optimization.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/neon.png",
+    "provider": "Neon Tech, Inc.",
+    "categories": [
+      "Data & Analytics",
+      "Dev Tools"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "API sleutels weergeven",
+      "API sleutel aanmaken",
+      "API sleutel intrekken",
+      "Operatie details ophalen",
+      "Operaties weergeven",
+      "Projecten weergeven",
+      "Project aanmaken",
+      "Gedeelde projecten weergeven",
+      "Project details ophalen",
+      "Project verwijderen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "notte",
+    "displayName": "Notte.cc",
+    "description": "Notte transforms the internet into a space where each website becomes a structured, navigable map for intelligent agents.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/notte.png",
+    "provider": "Notte Labs",
+    "categories": [
+      "Search & Scraping"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Sessie starten",
+      "Pagina observeren",
+      "Data scrapen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "one_page_crm",
+    "displayName": "OnePageCRM",
+    "description": "OnePageCRM API for managing contacts, sales actions, and customer relationship management.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/one_page_crm.svg",
+    "provider": "OnePageCRM",
+    "categories": [
+      "Sales & Marketing"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Bootstrap data ophalen",
+      "Authenticatie sleutel wijzigen",
+      "Gebruikers weergeven",
+      "Gebruiker details ophalen",
+      "Gebruiker bijwerken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "one_signal",
+    "displayName": "OneSignal",
+    "description": "OneSignal is a comprehensive customer engagement solution that provides push notifications, in-app messaging, email, and SMS services. This integration enables managing and sending cross-platform notifications, tracking user engagement, and accessing notification analytics.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/one_signal.svg",
+    "provider": "OneSignal Inc.",
+    "categories": [
+      "Communicatie",
+      "Sales & Marketing"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Apparaat toevoegen",
+      "Push notificatie versturen",
+      "Apparaat bewerken",
+      "Berichten bekijken",
+      "Abonnement aanmaken via alias"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "open_weather_map",
+    "displayName": "Open Weather Map",
+    "description": "OpenWeatherMap provides comprehensive weather data including current conditions and 5-day/3-hour forecasts. The API delivers accurate weather information based on the proprietary OpenWeather Model. This integration uses the free API endpoints (Current Weather Data and 5-day/3-hour Forecast) which are available on the free plan with a limit of 1,000 calls per day.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/open_weather_map.svg",
+    "provider": "OpenWeather Ltd.",
+    "categories": [
+      "Weather"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Actueel weer ophalen",
+      "Weersvoorspelling bekijken",
+      "Weer en voorspelling ophalen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "paddle",
+    "displayName": "Paddle",
+    "description": "Paddle is a complete payments infrastructure for SaaS companies. It helps businesses sell software globally with checkout, subscriptions, taxes, anti-fraud, and financial services all in one unified platform.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/paddle.jpeg",
+    "provider": "Paddle",
+    "categories": [
+      "Finance"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Klant aanmaken",
+      "Klanten weergeven",
+      "Klant details ophalen",
+      "Klant bijwerken",
+      "Product aanmaken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "posthog",
+    "displayName": "PostHog",
+    "description": "The PostHog API",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/posthog.svg",
+    "provider": "PostHog",
+    "categories": [
+      "Data & Analytics",
+      "Sales & Marketing"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Organisaties weergeven",
+      "Projecten weergeven",
+      "Project aanmaken",
+      "Project bijwerken",
+      "Project data opvragen",
+      "Project verwijderen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "reddit",
+    "displayName": "Reddit",
+    "description": "The Reddit API allows you to interact with Reddit programmatically, including post management, comments, user interactions, and subreddit operations.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/reddit.svg",
+    "provider": "Reddit",
+    "categories": [
+      "Communicatie"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Subreddit posts ophalen",
+      "Post reacties bekijken",
+      "Gebruiker info ophalen",
+      "Zoeken op Reddit",
+      "Subreddit info ophalen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "replicate",
+    "displayName": "Replicate",
+    "description": "The Replicate API allows you to build applications that use AI models to generate images, audio, and more.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/replicate.svg",
+    "provider": "Replicate",
+    "categories": [
+      "Text-to-Image",
+      "AI & Machine Learning"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "AI afbeelding genereren (Flux Pro)",
+      "Object detectie (Grounding DINO)"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "resend",
+    "displayName": "Resend",
+    "description": "Resend is the email API for developers. It provides a modern API for sending transactional emails, managing email templates, and tracking email delivery status with comprehensive analytics.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/resend.svg",
+    "provider": "Resend",
+    "categories": [
+      "Communicatie"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "E-mail versturen",
+      "E-mail details ophalen",
+      "Batch e-mails versturen",
+      "E-mail bijwerken",
+      "E-mail annuleren",
+      "Domein toevoegen",
+      "Domein details ophalen",
+      "Domein verifiëren",
+      "Domein bijwerken",
+      "Domeinen weergeven"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "rocketlane",
+    "displayName": "Rocketlane",
+    "description": "Rocketlane API for managing customer onboarding, project management, and client collaboration.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/rocketlane.svg",
+    "provider": "Rocketlane",
+    "categories": [
+      "Productiviteit",
+      "Sales & Marketing"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Veld details ophalen",
+      "Veld bijwerken",
+      "Veld verwijderen",
+      "Veldoptie toevoegen",
+      "Veldoptie bijwerken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "rossum",
+    "displayName": "Rossum",
+    "description": "Automate complex transactional workflows with Rossum's AI document processing solution. Reduce manual tasks, increase accuracy, drive efficiency.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/rossum.svg",
+    "provider": "Resend",
+    "categories": [
+      "Document Management",
+      "Automation"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Document ophalen",
+      "Wachtrijen weergeven",
+      "Inloggen",
+      "Document uploaden naar wachtrij",
+      "Annotaties ophalen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "scrapybara",
+    "displayName": "Scrapybara",
+    "description": "Scrapybara is a web scraping API designed for developers. It provides a powerful, fast, and simple interface to scrape any webpage and extract structured content in real time.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/scrapybara.webp",
+    "provider": "Scrapybara",
+    "categories": [
+      "Search & Scraping"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Instance starten",
+      "Instance details ophalen",
+      "Alle instances weergeven",
+      "Browser authenticatie staten weergeven",
+      "Screenshot maken",
+      "Stream URL ophalen",
+      "Computer acties uitvoeren",
+      "Bash commando's uitvoeren",
+      "Bewerkingsacties uitvoeren",
+      "Bestandsacties uitvoeren"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "sendgrid",
+    "displayName": "SendGrid",
+    "description": "SendGrid is a cloud-based email service that delivers transactional and marketing emails. It provides a robust API for sending emails, managing email templates, and tracking email delivery status.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/sendgrid.svg",
+    "provider": "SendGrid",
+    "categories": [
+      "Communicatie"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "E-mail versturen",
+      "Domein authenticatie aanmaken",
+      "Standaard domein authenticatie ophalen",
+      "Domein authenticatie details ophalen",
+      "Geauthenticeerde domeinen weergeven",
+      "Domein authenticatie valideren",
+      "Domein authenticatie bijwerken",
+      "Domein authenticatie verwijderen",
+      "Domein koppelen aan subgebruiker",
+      "E-mail DNS records ophalen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "sentry",
+    "displayName": "Sentry",
+    "description": "Sentry API integration for monitoring and error tracking, allowing you to manage issues, events, releases, and more.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/sentry.svg",
+    "provider": "Sentry",
+    "categories": [
+      "Dev Tools"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Issues ophalen",
+      "Events bekijken",
+      "Releases weergeven",
+      "Tags ophalen",
+      "Teamleden weergeven",
+      "Teams weergeven",
+      "API sleutels ophalen",
+      "Gebruikers weergeven"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "serpapi",
+    "displayName": "SerpApi",
+    "description": "SerpApi integration for web search, images, news, academic papers, and trends, providing access to Google Search, Images, News, Scholar, and Trends APIs.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/serpapi.svg",
+    "provider": "SerpApi",
+    "categories": [
+      "Search & Scraping"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Google zoekresultaten ophalen",
+      "Google afbeeldingen zoeken",
+      "Google nieuws zoeken",
+      "Wetenschappelijke artikelen zoeken",
+      "Google trends bekijken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "share_point",
+    "displayName": "SharePoint",
+    "description": "The Microsoft Graph SharePoint API enables access to SharePoint sites, lists, libraries, and files. This integration allows reading and managing SharePoint content on behalf of the user.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/sharepoint.png",
+    "provider": "Microsoft",
+    "categories": [
+      "Productiviteit",
+      "Document Management"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Sites zoeken",
+      "Hoofdsite ophalen",
+      "Site ophalen via ID",
+      "Site ophalen via pad",
+      "Subsites weergeven",
+      "Site drives weergeven",
+      "Items zoeken in site drive",
+      "Map aanmaken in site drive",
+      "Item verwijderen uit site drive",
+      "Lijst aanmaken in site"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "solscan",
+    "displayName": "SolScan",
+    "description": "SolScan integration for Solana blockchain data, providing access to transactions, accounts, and smart contracts.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/solscan.svg",
+    "provider": "SolScan",
+    "categories": [
+      "AI & Machine Learning",
+      "Data & Analytics"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Blockchain info ophalen",
+      "Account details bekijken",
+      "Saldo wijzigingen bekijken",
+      "Account transacties weergeven",
+      "Portfolio overzicht bekijken",
+      "Token accounts weergeven"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "steel",
+    "displayName": "Steel.dev",
+    "description": "API for browser automation, web scraping, screenshot capture, and PDF generation with session management capabilities.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/steel.png",
+    "provider": "Steel.dev",
+    "categories": [
+      "Search & Scraping",
+      "Browser"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Webpagina scrapen",
+      "Screenshot maken",
+      "Converteren naar PDF",
+      "Sessies weergeven",
+      "Sessie aanmaken",
+      "Alle sessies vrijgeven",
+      "Sessie details ophalen",
+      "Sessie context ophalen",
+      "Sessie gebeurtenissen bekijken",
+      "Sessie vrijgeven"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "tavily",
+    "displayName": "Tavily",
+    "description": "Tavily is a search tool that focuses on optimizing search for AI developers and autonomous AI agents. We take care of all the burden of searching, scraping, filtering and extracting.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/tavily.svg",
+    "provider": "Tavily, Inc.",
+    "categories": [
+      "Search & Scraping"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Zoeken",
+      "Content extraheren"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "tines",
+    "displayName": "Tines",
+    "description": "Tines is a no-code automation platform that allows security and operations teams to automate any manual workflow with a drag-and-drop interface. It provides powerful API capabilities for team management and workflow automation.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/tines.svg",
+    "provider": "Tines",
+    "categories": [
+      "Automation",
+      "Integration"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Team aanmaken",
+      "Teams weergeven",
+      "Team details ophalen",
+      "Team bijwerken",
+      "Teamleden weergeven"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "typefully",
+    "displayName": "Typefully",
+    "description": "Typefully is a Twitter/X writing platform that helps users create, schedule, and publish better tweets and threads. It provides powerful API capabilities for draft management and content scheduling.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/typefully.svg",
+    "provider": "Typefully",
+    "categories": [
+      "Sales & Marketing",
+      "Productiviteit"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Concept aanmaken",
+      "Recent gepubliceerde concepten weergeven",
+      "Laatste notificaties ophalen",
+      "Notificaties als gelezen markeren",
+      "Recent geplande concepten weergeven"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "ultra_msg",
+    "displayName": "Ultra Msg",
+    "description": "Ultra Msg is a WhatsApp API service that allows users to send and receive WhatsApp messages, manage contacts and groups, and automate WhatsApp workflows. This integration allows you to programmatically send text, pictures, documents and other media types of messages through WhatsApp.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/ultra_msg.svg",
+    "provider": "Ultra Msg",
+    "categories": [
+      "Communicatie"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "WhatsApp bericht versturen",
+      "Berichten ophalen op status",
+      "Contacten weergeven",
+      "Alle groepen weergeven",
+      "Groep IDs ophalen"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "wrike",
+    "displayName": "Wrike",
+    "description": "Wrike is an intelligent work management platform that provides project management, task tracking, collaboration and workflow automation capabilities. It enables teams to centrally manage projects, automate repetitive tasks, customize workspaces, and gain key insights through real-time reports and dashboards.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/wrike.svg",
+    "provider": "Wrike, Inc.",
+    "categories": [
+      "Productiviteit",
+      "Automation"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Taken zoeken",
+      "Taak aanmaken",
+      "Taken aanpassen",
+      "Mappenstructuur ophalen",
+      "Map aanmaken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "youtube",
+    "displayName": "YouTube",
+    "description": "YouTube API provides access to Google's streaming video repository, allowing you to search for videos, retrieve standard feeds, and manage YouTube subscriptions and playlists.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/youtube.svg",
+    "provider": "Google LLC",
+    "categories": [
+      "Media"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Video's zoeken",
+      "Video details ophalen",
+      "Video beoordelen",
+      "Video categorieën weergeven"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "zenrows",
+    "displayName": "ZenRows",
+    "description": "ZenRows is a powerful web scraping API that simplifies data extraction from any website. It handles rotating proxies, headless browsers, CAPTCHAs, and advanced anti-bot systems, providing a seamless solution for developers and businesses to collect web data efficiently.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/zenrows.svg",
+    "provider": "ZenRows",
+    "categories": [
+      "Search & Scraping"
+    ],
+    "authType": "api_key",
+    "functions": [
+      "Amazon producten ontdekken",
+      "Google zoekresultaten scrapen",
+      "Zillow vastgoed data ophalen",
+      "Zillow vastgoed ontdekken"
+    ],
+    "active": true,
+    "popular": false
+  },
+  {
+    "name": "zoho_desk",
+    "displayName": "Zoho Desk",
+    "description": "Zoho Desk API integration for customer support and ticket management. Provides access to tickets, contacts, departments, and customer support features.",
+    "logo": "https://raw.githubusercontent.com/aipotheosis-labs/aipolabs-icons/refs/heads/main/apps/zoho_desk.svg",
+    "provider": "Zoho",
+    "categories": [
+      "Sales & Marketing"
+    ],
+    "authType": "oauth2",
+    "functions": [
+      "Tickets weergeven",
+      "Contact details ophalen",
+      "Contacten weergeven",
+      "Afdelingen weergeven",
+      "Ticket details ophalen",
+      "Contacten zoeken"
+    ],
+    "active": true,
+    "popular": false
+  }
+]
