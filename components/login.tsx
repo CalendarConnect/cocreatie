@@ -143,7 +143,7 @@ export function LoginForm() {
                       "text-sm text-neutral-500 text-center mt-4 text-muted dark:text-muted-dark"
                     )}
                   >
-                    Don&apos; have an account?{" "}
+                    Don&apos;t have an account?{" "}
                     <Link href="/signup" className="text-black dark:text-white">
                       Sign up
                     </Link>

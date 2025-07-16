@@ -105,7 +105,7 @@ export const ContactClients = () => {
             ✨ Wat onze professionals zeggen:
           </p>
           <p className="text-sm text-blue-700 dark:text-blue-300 italic">
-            "Mijn AI-partner begrijpt niet alleen wat ik doe, maar helpt me ook beter nadenken over hoe ik het doe."
+            &ldquo;Mijn AI-partner begrijpt niet alleen wat ik doe, maar helpt me ook beter nadenken over hoe ik het doe.&rdquo;
           </p>
           <p className="text-xs text-blue-600 dark:text-blue-400 mt-2">
             - Een van onze AI-partnership pioniers

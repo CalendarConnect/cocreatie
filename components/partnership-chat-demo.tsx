@@ -48,7 +48,7 @@ const partnerships: Partnership[] = [
       },
       {
         type: "ai",
-        content: "Natuurlijk! Op basis van VoedselHub's missie en jouw duurzaamheidsexpertise schrijf ik een sterke aanvraag. Welke subsidieregeling had je in gedachten?",
+        content: "Natuurlijk! Op basis van VoedselHub&apos;s missie en jouw duurzaamheidsexpertise schrijf ik een sterke aanvraag. Welke subsidieregeling had je in gedachten?",
         delay: 1000
       },
       {

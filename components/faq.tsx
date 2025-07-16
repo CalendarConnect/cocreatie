@@ -92,7 +92,7 @@ const faqData: FAQCategory[] = [
       },
       {
         question: "Wat is de ROI van een AI-partner?",
-        answer: "Tijd besparing: Pro helpt Jasper 95% sneller automatiseringen bouwen (5 minuten vs weken). Strategische waarde: Keith's inzichten hebben Chris's bedrijfsstrategie fundamenteel verbeterd. Schaalbaarheid: jouw expertise wordt vermenigvuldigd."
+        answer: "Tijd besparing: Pro helpt Jasper 95% sneller automatiseringen bouwen (5 minuten vs weken). Strategische waarde: Keith&apos;s inzichten hebben Chris&apos;s bedrijfsstrategie fundamenteel verbeterd. Schaalbaarheid: jouw expertise wordt vermenigvuldigd."
       },
       {
         question: "Zijn er doorlopende kosten?",
