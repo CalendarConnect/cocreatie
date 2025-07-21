@@ -101,8 +101,8 @@ export const Features = () => {
       </Subheading>
 
       <div className="max-w-7xl mx-auto mt-12 px-4">
-        {/* Table Container */}
-        <div className="overflow-x-auto">
+        {/* Desktop Table View */}
+        <div className="hidden lg:block overflow-x-auto">
           <table className="w-full">
             <thead>
               <tr>
@@ -174,6 +174,65 @@ export const Features = () => {
               })}
             </tbody>
           </table>
+        </div>
+
+        {/* Mobile Card View */}
+        <div className="lg:hidden space-y-6">
+          {categories.map((category, index) => {
+            const Icon = category.icon;
+            return (
+              <div key={index} className="border border-neutral-200 dark:border-neutral-700 rounded-lg overflow-hidden">
+                {/* Category Header */}
+                <div className="p-4 bg-neutral-50 dark:bg-neutral-900 border-b border-neutral-200 dark:border-neutral-700">
+                  <div className="flex items-center gap-3">
+                    <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-white dark:bg-neutral-800 flex-shrink-0">
+                      <Icon className="w-5 h-5 text-neutral-700 dark:text-neutral-300" />
+                    </div>
+                    <h3 className="font-semibold text-lg text-neutral-800 dark:text-neutral-200">
+                      {category.title}
+                    </h3>
+                  </div>
+                </div>
+                
+                {/* Comparison Content */}
+                <div className="divide-y divide-neutral-200 dark:divide-neutral-700">
+                  {/* Algemene LLM */}
+                  <div className="p-4">
+                    <h4 className="font-semibold text-sm text-neutral-600 dark:text-neutral-400 mb-3">
+                      Algemene LLM
+                    </h4>
+                    <ul className="space-y-2">
+                      {category.before.map((point, pointIndex) => (
+                        <li key={pointIndex} className="flex items-start">
+                          <span className="text-neutral-400 mr-2 mt-0.5 flex-shrink-0">✗</span>
+                          <span className="text-sm text-neutral-600 dark:text-neutral-400">
+                            {point}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  
+                  {/* Jouw AI-partner */}
+                  <div className="p-4 bg-neutral-50/50 dark:bg-neutral-900/50">
+                    <h4 className="font-semibold text-sm text-neutral-800 dark:text-neutral-200 mb-3">
+                      Jouw AI-partner
+                    </h4>
+                    <ul className="space-y-2">
+                      {category.after.map((point, pointIndex) => (
+                        <li key={pointIndex} className="flex items-start">
+                          <span className="text-neutral-800 dark:text-neutral-200 mr-2 mt-0.5 flex-shrink-0">✓</span>
+                          <span className="text-sm text-neutral-700 dark:text-neutral-300 font-medium">
+                            {point}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
         </div>
 
         {/* Bottom CTA */}

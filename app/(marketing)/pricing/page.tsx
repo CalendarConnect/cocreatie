@@ -2,7 +2,7 @@ import { Container } from "@/components/container";
 import { Background } from "@/components/background";
 import { Heading } from "@/components/heading";
 import { Subheading } from "@/components/subheading";
-import { PricingCalculator } from "@/components/pricing-calculator-new";
+import { PricingCalculator } from "@/components/pricing-calculator-optimized";
 import { ProcessTimeline } from "@/components/process-timeline";
 import { Companies } from "@/components/companies";
 import { Metadata } from "next";

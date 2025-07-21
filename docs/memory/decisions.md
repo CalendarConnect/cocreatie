@@ -629,6 +629,76 @@ This document tracks all significant technical and design decisions made during 
 
 ---
 
+## 2025-01-21 - Mobile Responsive Features Section Redesign
+
+**Context**: Chris received feedback that the "Het verschil tussen tools en partnership" section (features comparison table) was not mobile responsive.
+
+**Decision**: Transform the table layout into a mobile-friendly card-based design for smaller screens while maintaining the table view for desktop
+
+**Reasoning**: 
+- Tables are inherently difficult to make responsive on mobile devices
+- Card-based layouts provide better readability on narrow screens
+- Separate mobile and desktop views ensure optimal experience on all devices
+- Cards allow for better visual hierarchy and grouping of related content
+
+**Implementation**: 
+- Kept desktop table view unchanged (hidden on screens < 1024px)
+- Created mobile card view (visible only on screens < 1024px)
+- Each category becomes its own card with clear visual boundaries
+- Category header with icon prominently displayed at top of each card
+- Comparison sections clearly separated within each card
+- Added flex-shrink-0 to icons to prevent crushing on narrow screens
+- Used neutral colors throughout maintaining brand guidelines
+
+**Results**: 
+- Mobile users can now easily read all comparison content
+- Each category is self-contained and scannable
+- No horizontal scrolling required on mobile
+- Desktop experience remains unchanged
+- Zero TypeScript or linting errors
+
+**Next Steps**: Monitor user feedback on the new mobile layout
+
+---
+
+## 2025-01-21 - Pricing Page Performance Optimization
+
+**Context**: Chris reported that the /pricing page was loading way too slowly, impacting user experience.
+
+**Decision**: Complete refactoring of pricing calculator component to optimize performance through code splitting and icon optimization
+
+**Reasoning**: 
+- Original component imported 30+ icon libraries from react-icons (massive bundle)
+- All icons loaded upfront even if not displayed
+- Heavy Convex dependencies loaded for all users
+- Client component forced entire bundle to browser
+- Switch statement with 100+ cases for icon mapping
+
+**Implementation**: 
+- Created new pricing-calculator-optimized.tsx with minimal dependencies
+- Removed all react-icons imports, using only lucide-react icons
+- Split contact form into separate component with dynamic import
+- Lazy load contact form only when user clicks "Start jouw AI-partner traject"
+- Removed icon rendering from tools list (text-only for performance)
+- Eliminated massive getToolIcon switch statement
+- Kept same functionality with 80% less code
+- Fixed button variant TypeScript errors (secondary → outline)
+
+**Results**: 
+- Dramatically reduced initial bundle size
+- Contact form only loads when needed (code splitting)
+- No heavy icon libraries in main bundle
+- Faster page load times
+- Zero TypeScript or linting errors
+- Same user experience with better performance
+
+**Next Steps**: 
+- Monitor page load metrics
+- Consider further optimizations if needed
+- Apply similar patterns to other heavy components
+
+---
+
 ## Template for Future Decisions
 
 ```markdown
