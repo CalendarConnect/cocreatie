@@ -5,6 +5,7 @@ import { Poppins } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/context/theme-provider";
 import { ConvexClientProvider } from "./convex-client-provider";
+import { Analytics } from "@vercel/analytics/next";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -50,6 +51,7 @@ export default function RootLayout({
             {children}
           </ConvexClientProvider>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
